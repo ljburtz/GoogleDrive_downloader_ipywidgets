@@ -1,12 +1,17 @@
 # GoogleDrive_downloader_ipywidgets
 Easily search for files in Google drive folders and download them with the press of an ipywidget button
 
-Two classes:
-1. Thin wrapper around the gdrive documentation's tutorial
-2. Inherited class that adds the ipywidgets for inputting search queries and buttons to search and download
+![ipywidget_dashboard](dashboard.png)
 
-Easily customize the two classes to your needs.
-PRs welcome too!
+### Two classes:
+1. `DriveDownloader`: Thin wrapper around the gdrive documentation's tutorial
+2. `WidgetDriveDownloader(DriveDownloader)` Inherited class that adds the ipywidgets for inputting search queries and buttons to search and download
+
+### Notes:
+- Can use the `DriveDownloader` class independently in scripts (without ipywidgets)
+- Easily customize the two classes to your needs.
+- Public Google Drive [folder](https://drive.google.com/drive/folders/1ZHyRvpJbqsZ0Kucf885YNp4_-YuhBYHh?usp=sharing) for testing
+- PRs welcome too!
 
 ## Installation
 ```
