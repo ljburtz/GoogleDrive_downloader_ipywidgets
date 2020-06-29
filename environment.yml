@@ -1,0 +1,12 @@
+name: gdrive
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - ipykernel
+  - oauth2client
+  - google-api-python-client
+  - google-auth-oauthlib
+  - google-auth-httplib2
+prefix: /home/ubuntu/utilities/miniconda3/envs/gdrive
